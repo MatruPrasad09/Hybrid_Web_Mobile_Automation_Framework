@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" parallel="tests" preserve-order="true">
+    <listeners>
+        <listener class-name="com.partspot.utils.WebDriverListener"></listener>
+    </listeners>
+    <test name="Chrome">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+			<class name="com.partspot.tests.RegistrationTest"/>
+            <class name="com.partspot.tests.ForgotPasswordTest"/>
+            <class name="com.partspot.tests.LoginTest"/>
+            <class name="com.partspot.tests.QuickOrderTest"/>
+            <class name="com.partspot.tests.CartTest"/>
+            <class name="com.partspot.tests.OrdersTest"/>
+            <class name="com.partspot.tests.QuoteTest"/>
+            <class name="com.partspot.tests.FavoritesPartTest"/>
+            <class name="com.partspot.tests.QuoteToOrderTest"/>
+            <class name="com.partspot.tests.OrderHistoryTest"/>
+            <class name="com.partspot.tests.ProductFamilyTest"/>
+            <class name="com.partspot.tests.FullItemDetailsTest"/>
+        </classes>              
+    </test>
+    
+<!--     <test name="ie"> -->
+<!--         <parameter name="browserName" value="ie"></parameter> -->
+<!--         <classes> -->
+<!--             <class name="com.partspot.tests.RegistrationTest"/> -->
+<!--             <class name="com.partspot.tests.ForgotPasswordTest"/> -->
+<!--             <class name="com.partspot.tests.LoginTest"/> -->
+<!--             <class name="com.partspot.tests.QuickOrderTest"/> -->
+<!--             <class name="com.partspot.tests.CartTest"/> -->
+<!-- 			 <class name="com.partspot.tests.OrdersTest"/> -->
+<!--             <class name="com.partspot.tests.ProductFamilyTest"/> -->
+<!--             <class name="com.partspot.tests.QuoteTest"/> -->
+<!--             <class name="com.partspot.tests.QuoteToOrderTest"/> -->
+<!-- 			 <class name="com.partspot.tests.FullItemDetailsTest"/> -->
+<!--         </classes> -->
+<!--     </test> -->
+<!--     <test name="firefox"> -->
+<!--         <parameter name="browserName" value="firefox"></parameter> -->
+<!--         <classes> -->
+<!--             <class name="com.partspot.tests.RegistrationTest"/> -->
+<!--             <class name="com.partspot.tests.ForgotPasswordTest"/> -->
+<!--             <class name="com.partspot.tests.LoginTest"/> -->
+<!--             <class name="com.partspot.tests.QuickOrderTest"/> -->
+<!--             <class name="com.partspot.tests.CartTest"/> -->
+<!-- 			 <class name="com.partspot.tests.OrdersTest"/> -->
+<!--             <class name="com.partspot.tests.ProductFamilyTest"/> -->
+<!--             <class name="com.partspot.tests.QuoteTest"/> -->
+<!--             <class name="com.partspot.tests.QuoteToOrderTest"/> -->
+<!-- 			 <class name="com.partspot.tests.FullItemDetailsTest"/> -->
+<!--         </classes> -->
+<!--     </test> -->
+</suite>
