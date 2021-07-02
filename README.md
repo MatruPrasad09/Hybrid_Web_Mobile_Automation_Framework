@@ -92,9 +92,9 @@ OS: Linux (Mac)
 
 Framework has been integrated with Extent Reports, we can find under target folder
 
-•  	Mobile Execution Report: ExternReports.html
+•  	Mobile Execution Report: ExtentReports.html
 
-•	Web Execution Report: SmavaAutomationReport.html
+•	Web Execution Report: AutomationReport.html
 
 
 
